@@ -1,0 +1,13 @@
+{
+    "profiles": {
+      "DotNetWasmDeadlock": {
+        "commandName": "Project",
+        "launchBrowser": true,
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "applicationUrl": "https://localhost:7058;http://localhost:5250",
+        "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
+      }
+    }
+}
